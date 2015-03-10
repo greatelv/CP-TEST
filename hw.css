@@ -1,0 +1,225 @@
+
+/*Common Style*/
+* { padding: 0; margin: 0; border: 0 }
+ul, ol, li { margin: 0; padding: 0; list-style: none  ; font-size: 0px;}
+img { border: none;}
+a { text-decoration: none; border: none; color: #282828;}
+html{}
+
+@font-face {
+    font-family: “돋움”;
+    src: local(“Dotum”),
+    local(“Dotum”);
+}
+
+body { 
+  font-family: Tahoma, 돋움;
+  _font-family: 돋움, Tahoma;
+  color: #282828;
+  
+  font-size: 13px;
+  background: url(hwbg.png)no-repeat center 0;
+}
+#page{	
+	margin: 0 auto;
+	width: 900px;
+	box-sizing: border-box;
+	padding: 10px 40px;
+}
+#header{text-align: right;}
+#btn_change_layout{
+    display: inline-block;
+	background: #A9DCFF;
+    padding: 3px;
+    cursor: pointer;
+    width: 114px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 13px;
+}
+.section{display: inline-block;position: relative;float: left;height: 350px;}
+.section h2{
+    border-bottom: 1px solid #e1e1e1;
+    line-height: 37px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.price{
+    color: #0E9CE8;
+}
+.price span{
+    color: #292929;
+}
+
+.ellipsis{
+	width:100%;
+	overflow: hidden;
+	text-overflow: 
+	ellipsis;
+	white-space:nowrap;
+}
+
+
+/*Page Style*/
+/*Section 1*/
+#section_1{
+    width: 500px;
+}
+
+.promotion{
+    /* background-color: #F9F9F9; */
+    width: 100%;
+    height: 160px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.promotion img{
+    width: 130px;
+    height: 120px;
+    background-color: #e1e1e1;
+    float: left;
+}
+
+.promotion .text{
+    float: right;
+    height: 120px;
+    width: 315px;
+    line-height: 18px;
+    position: relative;
+}
+
+.promotion .text h3{
+    font-size: 16px;
+    letter-spacing: 1.1px;
+    height: 18px;
+}
+
+.promotion .text p{
+    margin-top: 10px;
+    letter-spacing: 0.7px;
+    height: 36px;
+}
+
+.promotion .price{
+    /* margin-top: 27px; */
+    font-size: 34px;
+    position: absolute;
+    bottom: 4px;
+}
+
+.promotion .price span{
+    color: #292929;
+    font-size: 15px;
+    margin-left: 7px;
+}
+
+.promotion-list{
+    margin-top: 12px;
+    display: inline-block;
+    font-size: 0px;
+}
+
+.promotion-list li{
+    position: relative;
+    float: left;
+    width: 117px;
+    margin-right: 10px;
+}
+
+.promotion-list li:last-child{
+    margin-right: 0px;
+    width: 117px;
+}
+
+.promotion-list img{
+    background-color: #BBBBBB;
+    width: 117px;
+    height: 74px;
+}
+
+.promotion-list .text{
+    overflow: hidden;
+    height: 18px;
+    line-height: 26px;
+    height: 26px;
+    letter-spacing: 0.3px;
+    font-size: 13px;
+}
+
+.promotion-list .price{
+    line-height: 10px;
+    font-size: 13px;
+}
+
+.promotion-list .price span{}
+
+/*Section 2*/
+#section_2{
+    margin: 0 0 0 20px;
+    width: 300px;
+}
+
+.popular{
+    font-size: 0px;
+}
+
+.popular li{
+    position: relative;
+    display: inline-block;
+    line-height: 24px;
+}
+
+.popular li img{
+    width: 300px;
+    height: 86px;
+    background-color: #BBBBBB;
+}
+
+/*Section 3*/
+#section_3{
+    margin-top: 20px;
+    width: 300px;
+}
+
+.recommend{
+    font-size: 0px;
+}
+
+.recommend li{
+    float: left;
+    line-height: 25px;
+    margin-right: 12px;
+}
+
+.recommend li:nth-child(3n){
+    margin-right: 0px;
+}
+
+.recommend img{
+    width: 92px;
+    height: 82px;
+    background-color: #BBBBBB;
+}
+
+/*Section 4*/
+#section_4{
+    margin: 20px 0px 0px 20px;
+    width: 500px;
+}
+
+#section_4 .notice{
+    font-size: 0px;
+}
+
+#section_4 .notice li{
+    font-size: 13px;
+    list-style: initial;
+    list-style-position: inside;
+    margin-bottom: 7px;
+}
+
+#section_4 .notice li b{
+    margin-right: 7px;
+}
