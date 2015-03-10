@@ -280,19 +280,22 @@ body {
 /*Tab Content*/
 .tab-content {
     width: 100%;
-    /* min-height: 300px; */
+    min-height: 300px;
     border: 1px solid #4DA9EF;
     box-sizing: initial;
     margin-top: -1px;
-}
-
-.tab-content > div{
     display: inline-block;
 }
 
-div#tab_1 {}
+.tab-content > div{
+    display: none;
+}
 
-/*Tab 1 Content*/
+.tab-content > div.active{
+	display: inline-block;
+}
+
+/*Tab 1 Content : Grid*/
 #tab_1{
     margin: -6px 0px 0px -6px;
     padding-top: 6px;
@@ -331,12 +334,29 @@ div#tab_1 {}
 	height: 100%;
 }
 
+/*Tab 2 Content : Slide*/
 #tab_2{}
 
+#tab_2 .view{
+}
+
+#tab_2 .navigator{}
+
+#tab_2 .arrow-left{}
+
+#tab_2 .arrow-right{}
+
+#tab_2 .ul{}
+
+#tab_2 .ul li{}
+
+/*Tab 3 Content : Vertical Banner*/
 #tab_3{}
 
+/*Tab 4 Content : Join Form*/
 #tab_4{}
 
+/*Tab 2 Content : Empty*/
 #tab_5{}
 
 
