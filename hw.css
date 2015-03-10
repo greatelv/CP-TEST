@@ -9,24 +9,25 @@ html{
 }
 
 @font-face {
-    font-family: â€œë‹ì›€â€;
-    src: local(â€œDotumâ€),
-    local(â€œDotumâ€);
+    font-family: Ã¢â‚¬Å“Ã«Ââ€¹Ã¬â€ºâ‚¬Ã¢â‚¬Â;
+    src: local(Ã¢â‚¬Å“DotumÃ¢â‚¬Â),
+    local(Ã¢â‚¬Å“DotumÃ¢â‚¬Â);
 }
 
 body { 
-  font-family: Tahoma, ë‹ì›€;
-  _font-family: ë‹ì›€, Tahoma;
+  font-family: Tahoma, 돋음;
+  _font-family: 돋음, Tahoma;
   color: #282828;
   
   font-size: 0px;
-  /*background: url(hwbg.png)no-repeat center 0;*/
+  /* background: url(hwbg.png)no-repeat center -309px; */
 }
 #page{	
 	margin: 0 auto;
 	width: 900px;
 	box-sizing: border-box;
 	padding: 10px 40px;
+	height: 2000px;
 }
 #header{text-align: right;}
 #btn_change_layout{
@@ -77,7 +78,7 @@ body {
 }
 
 .promotion{
-    /* background-color: #F9F9F9; */
+    background-color: #F9F9F9;
     width: 100%;
     height: 160px;
     padding: 20px;
@@ -228,7 +229,7 @@ body {
     list-style: initial;
     list-style-position: inside;
     margin-bottom: 7px;
-    text-indent: 1px;
+    text-indent: 2px;
 }
 
 #section_4 .notice li b{
@@ -276,15 +277,66 @@ body {
 	border: none;
 }
 
+/*Tab Content*/
 .tab-content {
     width: 100%;
-    min-height: 300px;
+    /* min-height: 300px; */
     border: 1px solid #4DA9EF;
-    box-sizing: border-box;
+    box-sizing: initial;
     margin-top: -1px;
 }
 
-.tab-content > div{}
+.tab-content > div{
+    display: inline-block;
+}
+
+div#tab_1 {}
+
+/*Tab 1 Content*/
+#tab_1{
+    margin: -6px 0px 0px -6px;
+    padding-top: 6px;
+}
+
+#tab_1 .grid{
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin: 6px;
+}
+
+#tab_1 .grid-1{
+	width: 160px;
+	height: 150px;
+}
+
+#tab_1 .grid-2{
+	width: 332px;
+	height: 150px;
+}
+
+#tab_1 .grid-3{
+	width: 304px;
+	height: 312px;
+}
+
+#tab_1 .left{
+	margin-right: 0px;
+	float: right;
+}
+
+#tab_1 .grid img{
+	background-color: #BBBBBB;
+	width: 100%; 
+	height: 100%;
+}
+
+#tab_2{}
+
+#tab_3{}
+
+#tab_4{}
+
+#tab_5{}
 
 
-	
